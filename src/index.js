@@ -1,12 +1,14 @@
 //import { config } from 'dotenv';
 //import { dbConnect } from '../configuration/dbConnect.js'
 
-require('dotenv').config()
-const dbConnect = require('../configuration/dbConnect.js');
-console.log(process.env.DB_URI);
-console.log(dbConnect);
-async function connectToDB(){
-    await(dbConnect);
-}
+const http = require("http");
+const app = require("../app.js");
+const server = http.createServer(app);
 
-connectToDB();
+const { API_PORT } = process.env;
+const port = process.env.PORT || API_PORT;
+
+// server listening 
+server.listen(port, () => {
+  console.log(`Server running on port ${port}`);
+});

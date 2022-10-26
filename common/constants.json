@@ -1,0 +1,639 @@
+{
+  "messages": {
+    "USER_LOGIN": {
+      "GMAIL_LOGIN":"Gmail",
+      "EMAIL_VERIFICATION" : 1,
+      "PARAMES_MISSING": "Please check your credentials",
+      "USER_NOT_EXIST": "Please create an account",
+      "TUTOR_NOT_EXIST": "Please create an account",
+      "STUDENT_NOT_EXIST": "Please create an account",
+      "PASSWORD_NOT_MATCH": "Please check your credentials",
+      "ACCOUNT_SUSPENDED": "Your account has been suspended",
+      "ACCOUNT_VERIFICATION_PENDING": "Please verify your account",
+      "SUCCESSFULLY_LOGIN": "Successfully logged in",
+      "PROFILE_DETAILS_NOT_Completed": "Profile has not been updated",
+      "SUCCESSFULLY_CANCELL": "You have successfully cancelled your account",
+      "ACTIVE_USER" : "Not a valid user",
+      "ACTIVE_ROLE": "You already have an account with us with a different role"
+    },
+    "TUTOR_UPDATE": {
+      "PARAMES_MISSING": "Please check your credentials",
+      "TUTOR_SUBJECT_PARAM_MISSING": "Please add a subject to tutor",
+      "TUTOR_DOCUMENT_MISSING": "You have not submitted any documents",
+      "TUTOR_LOCATION_MISSING": "Location details are missing",
+      "TUTOR_PROFILE_UPDATE_FAILED": "Failed to update profile",
+      "TUTOR_PROFILE_UPDATED_SUCCESSFULLY": "Profile updated"
+    },
+    "STUDENT_UPDATE": {
+      "PARAMES_MISSING": "Please check your credentials",
+      "STUDENT_SUBJECT_PARAM_MISSING": "Please add a subject to study",
+      "STUDENT_DOCUMENT_MISSING": "You have not submitted any documents",
+      "STUDENT_LOCATION_MISSING": "Please enter a student location",
+      "STUDENT_PROFILE_UPDATE_FAILED": "Profile failed to update",
+      "STUDENT_PROFILE_UPDATED_SUCCESSFULLY": "Profile updated"
+    },
+    "USER_UPDATE": {
+      "PARAMES_MISSING": "There are some missing parameters",
+      "EDUCATION_DETAILS_PARAMS_MISSING": "Education details missing",
+      "STUDENT_PROFILE_UPDATE_FAILED": "Your profile has failed to update",
+      "STUDENT_PROFILE_UPDATED_SUCCESSFULLY": "Updated successfully"
+    },
+    "AUTHENTICATION": {
+      "SESSION_FALSE": "Session false",
+      "UNAUTHORIZED" : "Authentication failed"
+    },
+    "USER_SIGNUP": {
+      "PARAMES_MISSING": "There are some missing parameters",
+      "USER_ALREADY_EXIST": "User already exists",
+      "EMAIL_ALREADY_EXIST" : "This email already exists",
+      "EMAIL_VERIFIED" : "Email verified successfully",
+      "SUCCESSFULLY_SIGNUP": "You have successfully signed up",
+      "USER_ACTIVE" : "User already exists"
+    },
+    "SEARCHEDTUTOR": {
+      "NEAR_BY_TUTOR": "Search Results"
+    },
+    "SEARCHED_SUBJECT" : {
+       "TOTAL_SUBJECT": "Search Results"
+    },
+    "COMPLETED_TUTOR" : {
+      "COMPLETED_MSG" : "You have completed this session"
+    },
+    "REPORT" : {
+      "REPORTING": "Your report has been added"
+    },
+    "FORGETPASSWORD": {
+      "OTP_MSG_FAIL" : "User does not exist",
+      "OTP_MSG" : "Verification email sent",
+      "NOT_MATCH_OTP" : "OTP does not match",
+      "MATCH_OTP"      : "OTP successfully matched",
+      "PASSWORD_SAVE" : "Your password has been saved successfully",
+      "ERROR_PASSWORD" : "Email does not exist",
+      "PASSWORD_MISMATCH" : "Passwords are not the same",
+      "OLDPASSWORD_MISMATCH" : "Old password is not the same"
+    },
+    "INVALID_TOKEN" : "That is not a valid token",
+    "CHAGEPASSWORD" : {
+      "CHANGE_PASSWORD" : "Password changed successfully",
+      "ERRORPASSWORD" : "There is an error with your password"
+    },
+    "UPDATE_DETAIL" : {
+      "SUCCESS_MSG" : "User details added successfully",
+      "USER_DATA": "The following are your profile details"
+    },
+    "REPORTEDINFO" : {
+      "REPORTED_TUTOR": "Tutors that you have reported",
+      "REPORTED_STUDENT": "Students that you have reported"
+    },
+    "REVIEW": {
+      "REVIEW_STUDENT" : "Review saved successfully",
+      "REVIEW_FAILED" : "Review has failed to save"
+    },
+    "BOOKTUTOR" : {
+      "SUCCESS" : "The tutor will approve or reject ASAP",
+      "CANCELLED_MSG" : "A list of cancelled students",
+      "BOOKEDTUTOR": "The tutor you have booked",
+      "ADDsUBJECT" : "Our admin team will approve your request soon"
+    },
+    "NOT_USER" : {
+      "MESSAGE" : "User not found"
+    },
+    "CHAT" : {
+      "MSG_STATUS" : "Message saved successfully",
+      "GET_MSG" : "Here is your message"
+    },
+    "TUTOR_AVAILIBILITY" : {
+      "SUCCESS" : "You have saved your availability",
+      "FAIL" : "Unfortunately we were not able to set your availability, please check again"
+    },
+    "MARKET_PLACE" : {
+      "SUCCESS_MSG" : "You have successfully saved your item",
+      "FAIL_MSG" : "Unfortunately we were not able to save your item, please check again",
+      "SUCCESS_PRODUCT" : "This is your product",
+      "CARD_EMPTY": "Your cart is empty",
+      "NO_PRODUCT" : "There are no products",
+      "STUDENT_TYPE" : "Unfortunately you cannot sell any products",
+      "BANK_DETAILS": "Please upload your bank details"
+    },
+    "SEARCH_PRODUCT": {
+      "SEARCH_RESULT" : "Search results",
+      "NO_RESULT" : "No product found",
+      "PARAMES_MISSING": "There are some missing parameters",
+      "QUERY_MISSING": "Query missing"
+    },
+    "ADVANCE_FILTER_PRODUCT_SEARCH" : {
+      "PARAMES_MISSING": "There are some missing parameters",
+      "RANGE_MISMATCH": "The price range is incorrect",
+      "EMPTY_SET": "Nothing found within the range",
+      "SEARCH_RESULT" : "Search results"
+    },
+    "ROLEID" : {
+      "SUCCESS" : "Your Role ID has been updated",
+      "FAILED" : "Your Role ID has failed to update"
+    },
+    "TERMnCONDITION": {
+      "MESSAGE": "Terms and Conditions"
+    },
+    "REQUEST_NEW_SUBJECT": {
+      "SKILLS_UPDATE_FAILED": "The skill was not updated",
+      "LEVEL_UPDATE_FAILED": "This level failed to update",
+      "BOARD_UPDATE_FAILED": "Exam board failed to update",
+      "SUBJECT_ADDITION_FAILED": "The subject has failed to add",
+      "SKILL_ALREADY_EXIST": "This skills already exists",
+      "BOARD_ALREADY_EXIST": "Exam board already exists",
+      "LEVEL_ALREADY_EXIST": "The level already exists",
+      "SUBJECT_ALREADY_EXIST": "This subject already exists",
+      "SUCCESS": "Details addedd successfully",
+      "PARAMES_MISSING": "There are some missing parameters"
+    },
+    "CREATE_LIMIT": {
+      "ADD_LIMIT": "Limit added successfully"
+    },
+    "ADD_CART_DETAILS": {
+      "PARAMS_MISSING": "There are some missing parameters",
+      "DATATYPE": "Data-type mismatch",
+      "NOT_FOUND": "Product not found",
+      "QUANTITY_VALUE_GREATER": "The Seller doesn't have enough quantity",
+      "COMBINATION_QUANTITY": "The seller doesn't have enough quantity",
+      "FAILED": "Product has not been added to your cart",
+      "SUCCESS": "Product has been added to your cart",
+      "FAILED_TO_UPDATE": "Product quantity failed to update",
+      "SUCCESSFULLY_UPDATED": "Product quantity has been updated"
+    },
+    "GET_CART_PRODUCTS": {
+      "NOT_FOUND": "Product cart empty",
+      "SUCCESS": "List of products"
+    },
+    "DELETE_CART_PRODUCTS": {
+      "FAILED": "Product failed to delete",
+      "SUCCESS": "Product removed successfully"
+    },
+    "MY_SHOP_PRODUCTS": {
+      "EMPTY": "No products found",
+      "LISTS": "List of products"
+    },
+    "PRODUCT_REVIEW": {
+      "SUCCESS": "Product review added",
+      "MISSING_PARAMS": "There are some missing parameters",
+      "NOT_FOUND": "Product not found",
+      "FAILED": "Product review failed to add"
+    },
+    "UPDATE_PRODUCT": {
+      "FAILED": "Product details failed to update",
+      "SUCCESS": "Product details successfully updated",
+      "QUERY_PARAM_MISSING": "Query missing",
+      "NOT_FOUND": "Product was not found",
+      "MISSING_PARAMS": "There are some missing parameters",
+      "DATATYPE": "Data-type mismatch",
+      "SUCCESSFULLY_UPDATED_QTY": "Product quantity updated"
+    },
+    "ADD_NEW_PRODUCT": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "FAILED": "Failed to upload new product details",
+      "SUCCESS": "Product successfully uploaded"
+    },
+    "FAVORITES": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "FAILED": "Failed to add as favourites",
+      "SUCCESS": "Added to favourites",
+      "UPDATED": "Favourites status updated",
+      "EMPTY": "Favourites list empty",
+      "LIST": "List of favourites"
+    },
+    "TUTOR_AVAILABILITY": {
+      "TUTOR_DETAILS": "Enter tutor profile details for setting availability",
+      "MISSING_PARAMS": "Please check that all parameters are submitted",
+      "DATATYPE": "Data-type mismatch",
+      "EMPTY_ARRAY": "Empty array value",
+      "BANK": "Bank details not found",
+      "MIS_MATCH": "There has been a mismatch",
+      "FAILED": "Failed to add availability",
+      "SUCCESS": "Tutor availability successfully added",
+      "TIME_SLOT": "Start time should be before the end time",
+      "EXIST": "Tutor availability already exists",
+      "NOT_SET": "Avaiability has not been set",
+      "DETAILS": "Tutor availability details",
+      "QUERY_PARAMS_MISSING": "Query parameter missing",
+      "DETAILS_NOT_FOUND": "Availability details not found",
+      "AVAILABILITY_DETAILS": "Availability details ",
+      "TIME_SLOTS_EMPTY": "Time slots empty",
+      "SUBJECTS_EMPTY": "Subject field empty",
+      "LESSON_EMPTY": "Lesson type empty",
+      "TUTOR_METHOD_EMPTY": "Tutor method empty",
+      "UPDATED": "Tutor availability updated",
+      "REMOVED_SUCCESSFULLY": "Availability has been successfully removed",
+      "DATE": "Dates are not allowed",
+      "SESSION": "Session not found",
+      "MIN_BOOKING": "There is a minimum time length of 30 minutes"
+    },
+    "NEARBY_TUTOR": {
+      "EMPTY": "Tutor not found",
+      "EMPTY_AVAILABILITY_DETAILS": "Tutor availability details empty",
+      "DETAILS": "Tutor availability details for booking",
+      "NOT_FOUND": "Tutor not found",
+      "MISSING_PARAMS": "There are some missing parameters",
+      "QUERY_MISSING": "Query missing"
+    },
+    "BOOKING": {
+      "FAILED": "Failed to add booking details",
+      "SUCCESS": "Booking details saved successfully",
+      "EXIST": "Booking already exists",
+      "FEE": "Failed to get lesson cost",
+      "DUE": "Your payment is due"
+    },
+    "BUZZ": {
+      "PARAMS_MISSING": "There are some missing parameters",
+      "QUERY_PARAM_MISSING": "Query params missing",
+      "NOT_FOUND": "Buzz details not found",
+      "FAILED": "Failed to update buzz status",
+      "UPDATED": "Buzz status updated successfully",
+      "EMPTY": "Buzz details list empty",
+      "SUCCESS": "Buzz details list",
+      "EXIST": "Booking has already been accepted"
+    },
+    "BOOKINGS_STATUS": {
+      "PARAMS_MISSING": "There are some missing parameters",
+      "QUERY_PARAM_MISSING": "Query params missing",
+      "NOT_FOUND": "Details not found",
+      "BOOKING_NOT_SET": "Booking details not set",
+      "FAILED": "Failed to update booking status",
+      "SUCCESS": "Successfully updated booking status",
+      "DATA": "Booking details",
+      "REASON": "Reason to report"
+    },
+    "LOCATION_DETAILS": {
+      "SESSION_ID_NOT_FOUND": "Booking details not found",
+      "SUCCESS": "MSG_Lat_Long_For_Distance"
+    },
+    "USER_RATINGS": {
+      "PARAMS_MISSING": "There are some missing parameters",
+      "SESSION_NOT_FOUND": "Booking session doesn't exist",
+      "FAILED": "Failed to add reviews",
+      "SUCCESS": "Reviews added successfully"
+    },
+    "REPORT_CANCEL": {
+      "SUCCESS": "MSG_Following_Reasons"
+    },
+    "FCM": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "FAILED": "Failed to update FCM token",
+      "SUCCESS": "Updated FCM token",
+      "NOTIFICATION_FAILED": "Notification failed to send",
+      "UNSUCCESSFUL": "Notification failed to save",
+      "BUZZ": "Buzz sent",
+      "DELIVERED": "Notification delivered"
+    },
+    "NOTIFICATION": {
+      "EMPTY": "No notifications",
+      "LIST": "Notifications",
+      "FAILED": "Failed to mark notification as read",
+      "SUCCESS": "Notification marked as read"
+    },
+    "SCHEDULER": {
+      "FAILED": "Failed to update documents"
+    },
+    "CHATS": {
+      "EMPTY_CONTACT": "Empty contact list",
+      "LIST_OF_CONTACT": "Contact list",
+      "MISSING_PARAMS": "There are some missing parameters",
+      "ONE_TO_ONE_CHAT": "MSG_Single_RecieverId_Required",
+      "GROUP_CHAT": "MSG_Group_Chat_Array_Of_Reciever_Required",
+      "FAILED": "MSG_Failed_To_Form_Chat_Details",
+      "SUCCESS": "Chat details successfully created",
+      "CHAT_TYPE": "MSG_Chat_Type_Not_Found",
+      "RECEIVER_DETAILS": "Receiver details not found",
+      "CHATS_NOT_FOUND": "Chat not found",
+      "CHATS_FOUND": "MSG_Chats_Detail",
+      "QUERY_MISSING": "MSG_Query_Parameter_Missing",
+      "CHAT_MESSAGES": "MSG_Chat_Messages",
+      "CHAT_ROOM_NOT_FOUND": "Group not found",
+      "CHAT_EMIT": "Chat emit message",
+      "CHAT_SAVING": "Chat failed to save",
+      "ADD_MEMBER": "Only tutor can add member to the group",
+      "EXISTING_USER": "This user already exists",
+      "FAILED_TO_ADD": "Failed to add user into group",
+      "SUCCESSFULLY": "User successfully added to group",
+      "STUDENT_PERMISSION": "Student doesn't have permission to create group",
+      "CONTACT_DELETION_FAILED": "Failed to remove contact from list",
+      "CONTACT_DELETION_SUCCESS": "Contact removed successfully"
+    },
+    "MONGO_ID_LENGTH": {
+      "ID": "Mongo ID length not valid"
+    },
+    "USER_PROFILE_DETAILS": {
+      "FAILED": "MSG_User_Id_Does_Not_Exist",
+      "SUCCESS": "MSG_User_Profile_Details"
+    },
+    "SOCIAL_LOGIN": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "REGISTRATION_FAILED": "Authentication failed",
+      "REGISTRATION_SUCCESS": "Login successfully registered",
+      "SUSPENDED": "User has been susupended",
+      "LOGIN": "Successfully logged in",
+      "PROFILE_UPDATION": "Profile not updated",
+      "VERIFICATION": "Email verification pending",
+      "SOCIAL_LOGIN_TYPE": "MSG_Social_LogIn_Type_Not_Valid"
+    },
+    "USER_ACCOUNT": {
+      "FAILED_DELETION": "Failed to delete user account",
+      "SUCCESS": "User account successfully deleted"
+    },
+    "DASHBOARD": {
+      "QUERY_PARAM": "There are some missing parameters",
+      "EMPTY": "MSG_No_Bookings_Record_Found_Stats_Empty",
+      "EXIST": "MSG_Bookings_Records_Stats_Details"
+    },
+    "NOTIFICATION_STATUS": {
+      "SUCCESS": "MSG_Notification_Status_Detail"
+    },
+    "UPDATE_NOTIFICATION": {
+      "PARAMS_MISSING": "There are some missing parameters",
+      "SUCCESS": "Notification status updated"
+    },
+    "CHANGE_PASS": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "PASSWORD_NOT_MATCH": "Password does not match",
+      "MIS_MATCH": "Passwords do not match",
+      "FAILED": "Unfortunately we could not change your password, please try again",
+      "SUCCESS": "Password changed successfully"
+    },
+    "ACTIVITY": {
+      "EMPTY": "No activity logs",
+      "SUCCESS": "Activity logs"
+    },
+    "GET_REVIEWS": {
+      "EMPTY": "No review details",
+      "SUCCESS": "Review details"
+    },
+    "CHECK_OUT": {
+      "MISSING_PARAMS": "Some parameters are missing",
+      "EMPTY": "Please add a product to proceed to checkout",
+      "SUCCESS": "Order has been placed successfully",
+      "CANCELLED": "Payment failed",
+      "ERROR": "Error paying",
+      "PENDING": "Payment is pending",
+      "RECEIVED": "Message recieved",
+      "REFUSED": "Payment has been refused, try again",
+      "FAILED": "Failed to place order",
+      "NOT_FOUND": "Payment method not found in users account",
+      "DOCS": "https://docs.adyen.com/api-explorer/#/PaymentSetupAndVerificationService/v53/post/payments"
+    },
+    "PAYMENT": {
+      "SUCCESS": "Payment has been complete",
+      "METHOD": "Available payment method details",
+      "EMPTY": "Empty payment method details"
+    },
+    "MARKET_REVIEWS": {
+      "MISSING_PARAMS": "There are some parameters missing",
+      "EMPTY": "Empty details",
+      "SUCCESS": "Details"
+    },
+    "LEAVE_FEEDBACK": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "SUCCESS": "Feedback has been submitted",
+      "FAILED": "Feedback has not been submitted successsfully, try again"
+    },
+    "CARD": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "EXIST": "This card already exists",
+      "FAILED": "Card details not saved successfully",
+      "SUCCESS": "Card details addedd succeessfully",
+      "SUCCESS_DETAIL": "Card details addedd succeessfully",
+      "NOT_FOUND": "Card details were not found",
+      "REMOVED": "Payment method detach successfully"
+    },
+    "REWRADS": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "FAILED": "No user has been found",
+      "SUCCESS": "Successful",
+      "EMPTY": "MSG_Rewards_Detail_Empty",
+      "SUCCESS_ATTEMPT": "You have successfully unlocked a new reward",
+      "FAILED_ATTEMPT": "Failed to unlock the new reward, check your reward points",
+      "EXIST": "Reward already unlocked"
+    },
+    "SUBSCRIPTION": {
+      "FAILED": "No user found",
+      "SUCCESS": "Subscription detail"
+    },
+    "DONE": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "NOT_FOUND": "Booking details not found",
+      "RESTRICTION": "Can't complete lesson before it has ended",
+      "FAILED": "Failed to create details",
+      "SUCCESS": "Marking successfully completed",
+      "Later": "Please try again later, as amount is not debited",
+      "TRAN_FAILED": "Transaction failed to pay"
+    },
+    "BANK": {
+      "MISSING_PARAMS": "There are some missing parameters",
+      "EXIST": "bank details already exist",
+      "SUCCESS": "Bank details added succesfully",
+      "FAILED": "Failed to add bank details, in previous attempt, please try again",
+      "DETAILS": "Details",
+      "FAILED_LINK": "Please try agian, some time",
+      "ACC_EXIST": "Your account detail already exist",
+      "NOT_FOUND": "Your Bank details not attached yet"
+    },
+    "SHIPPING": {
+      "MISSING_PARAMS": "Missing params",
+      "SUCCESS": "Shipping details added successfully",
+      "FAILURE": "Failed to add shipping details",
+      "DEATILS": "Shipping details",
+      "FAILED": "Failed to remove details",
+      "REMOVED": "Shipping details successfully removed"
+    },
+    "HELP": {
+      "MISSING_PARAMS": "Missing params",
+      "MAIL": "info@tutorhive.co.uk",
+      "DEV_MAIL": "dev@tutorhive.co.uk",
+      "SUCCESS": "We have acknowledged your query and will get back to you ASAP"
+    },
+    "ephemeral": {
+      "SUCCESS": "Ephermal details",
+      "FAILED": "Invalid response",
+      "DETAILS": "Details"
+    },
+    "UPGRADE": {
+      "minimum_version": "1.0",
+      "max_version": "1.0",
+      "force_upgrade_minimum_version": "1.0",
+      "update_title" : "Yay! New Update Available",
+      "update_message" : "New version of TutorHive available. Please update app to continue",
+      "update_link" : "https://play.google.com/store/apps/details?id=uk.co.tutorhive"
+    }
+  },
+  "HEADERS": {
+    "SECRET_TOKEN": "x-secret-token",
+    "USER_ID": "x-user-id",
+    "ACCESS_TOKEN": "x-access-token"
+  },
+  "HEADERS_TYPE": {
+    "SESSION": "session",
+    "LOGGEDIN_USER": "loggedin_user",
+    "LOGGEDIN_TUTOR": "loggedin_tutor"
+  },
+  "NUMERICAL_VALUE":{
+    "MIN_VALUE" : 0,
+    "MAX_VALUE": 1000000,
+    "HOUR": 3600000,
+    "MIN_MIN": 60000,
+    "MIN": 30,
+    "QUARTERLY": 0.25,
+    "PERCENTAGE": {
+      "BR_NEC": 12,
+      "SL_NEC": 10,
+      "GLD_NEC": 8,
+      "PLA_NEC": 12.5,
+      "MARKET_PLACE": 26,
+      "TRAN_CHRG": 1.4,
+      "TRAN_FIXED": 0.20
+    }
+  },
+  "STATUS": {
+    "SUCCESS_CODE": 200,
+    "ACCEPTED": 202,
+    "NO_CONTENT": 204,
+    "MISSING_FIELD":400,
+    "UNAUTHORIZED_ACCESS" : 401,
+    "UNAUTHORIZED_USER" : 405,
+    "FORBIDDEN": 403,
+    "NOT_FOUND": 404,
+    "FAILURE_CODE": 404,
+    "SUSPEND_ID" : 408,
+    "CATCH_BLOCK_CODE": 409,
+    "CONFLICT" : 409,
+    "ACTIVE_ROLE" : 410,
+    "PAYMENT_DUE": 402,
+    "BANK_DEATILS": 402,
+    "ERROR_CODE": 500,
+    "ERROR_MSG": 500,
+    "SUCCESS": true,
+    "FAILURE": false
+  },
+  "REWARDS": [{
+    "name": "coming soon",
+    "level": 1,
+    "points": 5,
+    "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+    "isActive": true
+},{
+  "name": "coming soon",
+  "level": 1,
+  "points": 5,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},
+  {
+  "name": "coming soon",
+  "level": 1,
+  "points": 5,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 1,
+  "points": 5,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 2,
+  "points": 20,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 2,
+  "points": 20,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 2,
+  "points": 20,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 2,
+  "points": 20,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 3,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 3,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 3,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 3,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},
+{
+  "name": "coming soon",
+  "level": 4,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 4,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 4,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+},{
+  "name": "coming soon",
+  "level": 4,
+  "points": 50,
+  "imageUrl": "https://i.ibb.co/Lz1FMng/Png-Item-1090632.png",
+  "isActive": true
+}],
+"SUBSCRIPTION": [{
+	"name": "Bronze Nectar",
+	"minDuration": 1,
+	"maxDuration": 3,
+	"level": 1
+},{
+	"name": "Silver Nectar",
+	"minDuration": 4,
+	"maxDuration": 7,
+	"level": 2
+},{
+	"name": "Gold Nectar",
+	"minDuration": 8,
+	"maxDuration": 15,
+	"level": 3
+},{
+	"name": "Platinum Nectar",
+	"minDuration": 16,
+	"maxDuration": 168,
+	"level": 4
+}],
+"REWARD_SYSTEM": {
+    "QUARTELRLY": 2.5,
+    "HALF_HOUR": 5,
+    "HOURLY": 10,
+    "ITEM_SOLD": 5
+  }
+}
